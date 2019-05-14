@@ -1,0 +1,34 @@
+body{
+	background-image:url(../img/2048_2048_渐变&蓝绿.jpg);
+	background-size:cover;
+}
+#q1,#q2,#q3,#q4,#q5,#q6,#q7,#q8,#q9,#q10{
+	position:absolute;
+	left:5%;
+	right:5%;
+	top:20%;
+	font-size:large;
+}
+#a,#b,#c,#d{
+	position:absolute;
+	width:150px;
+	height: 26px;
+	left:15%;
+	
+}
+#a{	
+	top:35%;
+	background-color:lavender;
+}
+#b{
+	top:42%;
+	background-color:powderblue;
+}
+#c{
+	top:49%;
+	background-color:lavender;
+}
+#d{
+	top:56%;
+	background-color:powderblue;
+}

@@ -1,0 +1,29 @@
+body{
+	background-image:url(../img/2048_2048_渐变&蓝绿.jpg);
+	background-size:cover;
+}
+#div1{
+	width:100%;
+}
+#jinru{
+	position:absolute;
+    top:30%;
+    left:15%;
+    font-size:x-large;
+    color:#33cc00;
+}
+#title{
+	position:absolute;
+    top:40%;
+    left:35%;
+    font-size:x-large;
+    color:#33cc00;
+}
+#btn-start{
+	position:absolute;
+	top:51%;
+	left: 35%;
+	width:120px;
+	height:31px;
+	background-color:lavender;
+}

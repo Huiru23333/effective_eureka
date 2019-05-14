@@ -1,0 +1,22 @@
+body{
+	background-image:url(../img/2048_2048_渐变&粉白.jpg);
+	background-size:cover;
+}
+#div1{
+	width:100%;
+}
+#score10,#score16,#score21,#score31{
+	position:absolute;
+	top:25%;
+	left:10%;
+	font-size:60px;
+	
+}
+#score10text,#score16text,#score21text,#score31text{
+	position:absolute;
+	top:35%;
+	left:10%;
+	right:10%;
+	font-size:40px;
+	
+}

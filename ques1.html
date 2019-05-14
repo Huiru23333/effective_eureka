@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>压力测试题-第1题</title>
+		<link rel="stylesheet" href="css/ques.css" type="text/css" />
+		<script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+   	    //声明一个变量，用于保存分数，
+   		var score=0;
+    </script>
+	</head>
+	<body>
+		<p id="q1">1.我感到事事都很顺利，不会有倒霉的事情发生</p>
+		<input id="a" type="button" value="没有或很少时间" onclick="score+=1;window.location.href='ques2.html?s='+score;"/>
+		<input id="b" type="button" value="小部分时间" onclick="score+=2;window.location.href='ques2.html?s='+score;"/>
+		<input id="c" type="button" value="相当多时间" onclick="score+=3;window.location.href='ques2.html?s='+score;"/>
+		<input id="d" type="button" value="绝大部分或全部时间" onclick="score+=4;window.location.href='ques2.html?s='+score;"/>
+	</body>
+</html>
